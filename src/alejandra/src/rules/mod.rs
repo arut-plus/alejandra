@@ -1,4 +1,5 @@
 pub(crate) mod apply;
+pub(crate) mod attrpath;
 pub(crate) mod attr_set;
 pub(crate) mod bin_op;
 pub(crate) mod dynamic;

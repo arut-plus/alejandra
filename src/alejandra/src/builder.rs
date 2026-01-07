@@ -150,7 +150,7 @@ fn format(
                 rnix::SyntaxKind::NODE_ASSERT => crate::rules::scoped::rule,
 
                 // a.b.c
-                rnix::SyntaxKind::NODE_ATTRPATH => crate::rules::default,
+                rnix::SyntaxKind::NODE_ATTRPATH => crate::rules::attrpath::rule,
 
                 // a = b;
                 rnix::SyntaxKind::NODE_ATTRPATH_VALUE => {
